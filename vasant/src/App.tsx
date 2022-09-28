@@ -1,9 +1,12 @@
 import React from 'react';
+import MainSlider from './components/MainSlider/MainSlider';
 
 function App() {
   return (
     <div className="App">
-      run perfetly
+      <div className='container'>
+        <MainSlider />
+      </div>
     </div>
   );
 }
